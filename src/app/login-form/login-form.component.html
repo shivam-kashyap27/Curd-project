@@ -1,0 +1,25 @@
+<div  class="bg-gradient-to-t from-gray-200 to-gray-500 h-screen py-20">
+    <div class="container mx-auto w-1/5 bg-white rounded-md hover:shadow-2xl  hover:-translate-y-1 py-8 px-4">
+        <form [formGroup]="loginForm" (ngSubmit)="loginData(loginForm.value)">
+            <div class="text-center p-2">
+                <h1 class="text-xl  font-bold">Welcome to Login From</h1>
+            </div>
+            <hr>
+            <div class="mt-4">
+                <label class="block text-lg font-semibold">UserName</label>
+            <input type="text" placeholder="Enter UserName" required class="border rounded-md p-2 w-full outline-none placeholder:italic mt-1" formControlName="username">
+            <span *ngIf="username && username.invalid && username.touched" class="text-red-500">UserName required</span>
+            </div>
+            <div class="py-1">
+                <label class="block text-lg font-semibold">Password</label>
+            <input type="password" placeholder="Enter Password" required class="border rounded-md p-2 w-full outline-none" formControlName="password">
+            <span *ngIf="password && password.invalid && password.touched" class="text-red-500">Password required</span>
+            </div>
+            <a class="text-blue-400" href="#">Forget Password</a>   
+            <div class="mt-4">
+                <button class="bg-gradient-to-r from-green-300 to-green-600 p-2 rounded-md w-full" >Login</button>
+            
+            </div>
+        </form>
+    </div>
+</div>

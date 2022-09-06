@@ -1,0 +1,140 @@
+{
+  "userDetails": [
+    {
+      "id": 1,
+      "username": "Shivam Kashyap",
+      "password": "Abc1212",
+      "email": "Shiavm11@gamil.com",
+      "phone": 112112213,
+      "address": "Lucknow"
+    },
+    {
+      "username": "Laborum quidem repel",
+      "password": "Pa$$w0rd!",
+      "email": "Debitis dolore sunt ",
+      "phone": 14,
+      "address": "Assumenda voluptate ",
+      "id": 2
+    },
+    {
+      "username": "Sed ratione pariatur",
+      "password": "Pa$$w0rd!",
+      "email": "Repellendus Dolore ",
+      "phone": 24,
+      "address": "Exercitation consequ",
+      "id": 3
+    },
+    {
+      "username": "Et exercitationem an",
+      "password": "Pa$$w0rd!",
+      "email": "Sit aliqua Culpa h",
+      "phone": 87,
+      "address": "Fuga Culpa dolorem",
+      "id": 4
+    },
+    {
+      "username": "Hic dolorem est sit",
+      "password": "Pa$$w0rd!",
+      "email": "Ab eaque quos qui vo",
+      "phone": 3,
+      "address": "Sunt do enim dolorem",
+      "id": 5
+    },
+    {
+      "username": "Duis magna veniam e",
+      "password": "Pa$$w0rd!",
+      "email": "Aliquam cupidatat il",
+      "phone": 36,
+      "address": "Alias aperiam cumque",
+      "id": 6
+    },
+    {
+      "username": "In impedit nihil qu",
+      "password": "Pa$$w0rd!",
+      "email": "Consequatur et ullam",
+      "phone": 82,
+      "address": "Aliqua Sit repudia",
+      "id": 7
+    },
+    {
+      "username": "Repudiandae eos rep",
+      "password": "Pa$$w0rd!",
+      "email": "Voluptatem quae sit ",
+      "phone": 50,
+      "address": "Officia necessitatib",
+      "id": 8
+    },
+    {
+      "username": "Eu ut qui sit incid",
+      "password": "Pa$$w0rd!",
+      "email": "Deleniti eos ut sunt",
+      "phone": 51,
+      "address": "Veritatis nostrum re",
+      "id": 9
+    },
+    {
+      "username": "Aliquam blanditiis i",
+      "password": "Pa$$w0rd!",
+      "email": "Quia sit omnis in q",
+      "phone": 66,
+      "address": "Totam delectus fugi",
+      "id": 10
+    },
+    {
+      "username": "Et veritatis nostrud",
+      "password": "Pa$$w0rd!",
+      "email": "Delectus aspernatur",
+      "phone": 37,
+      "address": "Et rerum et incidunt",
+      "id": 11
+    },
+    {
+      "username": "Porro quibusdam quid",
+      "password": "Pa$$w0rd!",
+      "email": "Et nulla rerum minim",
+      "phone": 40,
+      "address": "Id ut maiores dolore",
+      "id": 12
+    },
+    {
+      "username": "Quis quisquam placea",
+      "password": "Pa$$w0rd!",
+      "email": "Ut saepe ullam omnis",
+      "phone": 90,
+      "address": "Duis veniam eu labo",
+      "id": 13
+    },
+    {
+      "username": "Dolorem accusantium ",
+      "password": "Pa$$w0rd!",
+      "email": "Voluptatum beatae qu",
+      "phone": 28,
+      "address": "Deserunt anim conseq",
+      "id": 14
+    },
+    {
+      "username": "Nisi deleniti volupt",
+      "password": "1122221222",
+      "email": "Shivam@gmail.com",
+      "phone": 16,
+      "address": "Est similique qui in",
+      "id": 21
+    },
+    {
+      "username": "Ullam aut voluptatem",
+      "password": "Pa$$w0rd!1",
+      "email": "shivam@gmail.com",
+      "phone": 32,
+      "address": "Eius officia volupta",
+      "id": 22
+    },
+    {
+      "username": "Voluptas provident ",
+      "password": "Pa$$w0rd!1",
+      "email": "rahul@gmail.com",
+      "phone": 48,
+      "address": "Numquam est dolore ",
+      "id": 23
+    }
+  ]
+}
