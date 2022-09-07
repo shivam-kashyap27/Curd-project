@@ -3,6 +3,7 @@ import { FormGroup, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
+import { UserDetailsService } from '../services/user-details.service';
 
 @Component({
   selector: 'app-login-form',
@@ -11,9 +12,13 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class LoginFormComponent implements OnInit {
 
-  constructor(private route:Router,private toast:ToastrService) { }
+  constructor(private route:Router,private toast:ToastrService,private userService:UserDetailsService) { }
 
   ngOnInit(): void {
+    if(this.userService.isLoggedIn())
+    {
+    this.route.navigate(['viewUser'])
+    }
   }
     loginForm= new FormGroup({
      username:new FormControl('',[Validators.required]),

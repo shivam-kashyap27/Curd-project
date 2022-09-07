@@ -32,7 +32,7 @@ import { AuthGuard } from 'src/auth/auth.guard';
     FormsModule,
     NgxPaginationModule,
     ToastrModule.forRoot({
-      progressBar:true,timeOut:2000
+      progressBar:true,timeOut:1000
     }),
     BrowserAnimationsModule,
 
