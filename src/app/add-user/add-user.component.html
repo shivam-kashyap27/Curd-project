@@ -20,7 +20,7 @@
                     <input type="password" placeholder="Enter Password" class="border p-2 w-full rounded-md mt-2 outline-none" formControlName="password" [(ngModel)]="user.password" minlength="10">
                     <span *ngIf="password && password.invalid && password.touched" class="text-red-500">Password requried</span><br>
                     <label class="inline-block mt-2">Email Address</label>
-                    <input type="text" placeholder="Enter UserEmail Address" class="border p-2 w-full rounded-md mt-2 outline-none" formControlName="email" [(ngModel)]="user.email">
+                    <input type="email" placeholder="Enter UserEmail Address" class="border p-2 w-full rounded-md mt-2 outline-none" formControlName="email" [(ngModel)]="user.email">
                     <span *ngIf="email && email.invalid && email.touched"  class="text-red-500">Email requried</span><br>
                     <label class="inline-block mt-2">Phone Number</label>
                     <input type="number" placeholder="Enter PhoneNumber" class="border p-2 w-full rounded-md mt-2 outline-none" formControlName="phone" [(ngModel)]="user.phone">
